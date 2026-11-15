@@ -1,5 +1,7 @@
 # Alarm Signal Streaming Pipeline
 
+![Alarm Fleet Health dashboard](dashboard.png)
+
 A streaming data pipeline on **Databricks** that ingests security-panel telemetry (door contacts, motion, glass break, smoke, keypad, battery, comms) and turns it into answers a security operations team needs:
 
 - **Which devices need a battery soon?** Projects days until 15% from each device's drain rate
